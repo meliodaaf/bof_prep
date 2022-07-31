@@ -9,7 +9,7 @@ Write up for TryHackMe BOF Prep
 - Fuzzing
 - Pattern create using "msf-pattern_create -l <fuzzed value>"
 - Setup working dir for mona - !mona config -set workingfolder c:\monalogs\%p
-- Find offset - !mona findmsp -distance <fuzzed value>
+- Find offset - !mona findmsp -distance <fuzzed value> or /usr/share/metasploit-framework/tools/exploit/pattern_offset.rb -l 2000 -q 386F4337
 - Overwrite ESP using 4 Bs
 - Find bad chars - !mona bytearray -b "\x00"
 - Copy chars and add value to payload
